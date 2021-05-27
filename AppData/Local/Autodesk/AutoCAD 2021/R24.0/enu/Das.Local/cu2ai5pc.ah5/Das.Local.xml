@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Das.Local</name>
+    </assembly>
+    <members>
+        <member name="T:Autodesk.Das.Local.IJsonWebSocket">
+            <summary>
+            WebSocket that receives/sends json packets.
+            </summary>
+        </member>
+        <member name="M:Autodesk.Das.Local.IJsonWebSocket.ReceiveAsync(System.Threading.CancellationToken)">
+            <summary>
+            Receive a websocket message.
+            </summary>
+            <param name="cancellationToken">a token that allows the caller to cancel the operation.</param>
+            <returns>the message.</returns>
+        </member>
+        <member name="M:Autodesk.Das.Local.IJsonWebSocket.CloseAsync(System.Threading.CancellationToken)">
+            <summary>
+            Closes the socket.
+            </summary>
+            <param name="cancellationToken">a token that allows the caller to cancel the operation.</param>
+            <returns>nothing.</returns>
+        </member>
+        <member name="M:Autodesk.Das.Local.IJsonWebSocket.SendAsync``1(Autodesk.Das.Local.WebSocketMessage{``0},System.Threading.CancellationToken)">
+            <summary>
+            Sends a websocket message.
+            </summary>
+            <typeparam name="T">Kind of message to send.</typeparam>
+            <param name="obj">object to send.</param>
+            <param name="cancellationToken">a token that allows the caller to cancel the operation.</param>
+            <returns>nothing.</returns>
+        </member>
+        <member name="T:Autodesk.Das.Local.IRunCommand">
+            <summary>
+            Runs a command.
+            </summary>
+        </member>
+        <member name="M:Autodesk.Das.Local.IRunCommand.RunAsync(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.Threading.CancellationToken,System.Func{System.String,System.IO.StreamWriter,System.Threading.CancellationToken,System.Threading.Tasks.Task})">
+            <summary>
+            Run a command.
+            </summary>
+            <param name="command">the command line to run.</param>
+            <param name="workingFolder">the working folder of the process.</param>
+            <param name="envVars">the environment variables to set in the context process.</param>
+            <param name="cancellationToken">the cancellation token that can be used to control the lifetime of the process.</param>
+            <param name="output">Delegate that receives the standard output and error of the command.</param>
+            <returns>exit code of the command.</returns>
+        </member>
+        <member name="M:Autodesk.Das.Local.JobController.ProcessClientAsync(Autodesk.Das.Local.IJsonWebSocket)">
+            <summary>
+            Called for each websocket connection, chats with the client and take jobs from them.
+            </summary>
+            <param name="webSocket">the socket connection.</param>
+            <returns>Nothing.</returns>
+        </member>
+        <member name="M:Autodesk.Das.Local.JobController.ProcessJobAsync(Autodesk.Das.Local.LocalJob,System.Threading.CancellationToken)">
+            <summary>
+            Processes a single job.
+            </summary>
+            <param name="localJob">the job to be processed.</param>
+            <param name="cancellationToken">A cancellation token that can be used to abort the job.</param>
+            <returns>Nothing.</returns>
+        </member>
+        <member name="T:Autodesk.Das.Local.WorkItemError">
+            <summary>
+            Represents an error generated in response to the workitem submission.
+            </summary>
+        </member>
+        <member name="P:Autodesk.Das.Local.WorkItemError.Id">
+            <summary>
+            Gets the id of the workitem that generated this result.
+            </summary>
+        </member>
+        <member name="P:Autodesk.Das.Local.WorkItemError.Message">
+            <summary>
+            Gets the url of the result.
+            </summary>
+        </member>
+        <member name="T:Autodesk.Das.Local.WorkItemResult">
+            <summary>
+            Represents a workitem result.
+            </summary>
+        </member>
+        <member name="P:Autodesk.Das.Local.WorkItemResult.Id">
+            <summary>
+            Gets the id of the workitem that generated this result.
+            </summary>
+        </member>
+        <member name="P:Autodesk.Das.Local.WorkItemResult.Name">
+            <summary>
+            Gets the name of the output argument that this result is associated with it.
+            </summary>
+        </member>
+        <member name="T:Autodesk.Das.Local.WorkItemResultFile">
+            <summary>
+            Represents a workitem result file.
+            </summary>
+        </member>
+        <member name="P:Autodesk.Das.Local.WorkItemResultFile.Url">
+            <summary>
+            Gets the name of the output argument that this result is associated with it.
+            </summary>
+        </member>
+        <member name="T:Autodesk.Das.Local.WorkItemResultJson">
+            <summary>
+            Represents a workitem result file.
+            </summary>
+        </member>
+        <member name="P:Autodesk.Das.Local.WorkItemResultJson.Json">
+            <summary>
+            Gets the name of the output argument that this result is associated with it.
+            </summary>
+        </member>
+        <member name="T:Autodesk.Das.Local.Program">
+            <summary>
+            Main entry point.
+            </summary>
+        </member>
+        <member name="M:Autodesk.Das.Local.Program.Main(System.String[])">
+            <summary>
+            Main entry point.
+            </summary>
+            <param name="args">command line arguments.</param>
+        </member>
+    </members>
+</doc>

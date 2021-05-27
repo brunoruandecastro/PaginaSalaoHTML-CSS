@@ -1,0 +1,5 @@
+﻿{
+  "commandLine": [ "\"$(engine.path)AcCoreConsole.exe\" /delay 2" ],
+  "engine": "Autodesk.AutoCAD+23_1",
+  "description": "Stalls for a couple of seconds, for testing cancelling."
+}

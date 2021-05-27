@@ -1,0 +1,35 @@
+﻿{
+  "commandLine": [ "\"$(engine.path)AcCoreConsole.exe\" /noCER /acblock /i \"$(args[HostDwg].path)\" /readonly /isolate BlockPreviewUser BlockPreviewFolder /s \"$(settings[_scr].path)\"" ],
+  "parameters": {
+    "HostDwg": {
+        "verb": "get",
+        "description": "Host drawing to be loaded into AutoCAD.",
+        "required": true
+    },
+    "BlockName": {
+        "verb": "read",
+        "description": "The block name to wblock.",
+        "required": true
+    },
+	"PreviewParam":{
+		"verb":"read",
+		"description": "Block preview parameters",
+	},
+	"SnapshotPath":{
+		"verb":"post",
+		"description": "The location for the wblocked drawing",
+		"required": true
+	},
+    "ResultPath": {
+      "verb": "post",
+      "description": "Folder holds the metadata result.",
+      "required": true
+    }
+  },
+  "engine": "Autodesk.AutoCAD+23_1",
+  "appbundles": [],
+  "settings": {
+    "_scr": {"value": "_THUMBSAVE 0\n_.-wblock \"$(args[SnapshotPath].path)\" \"$(args[BlockName].value)\"\n_.ExtractFileMetaData\n \"$(args[SnapshotPath].path)\"\n$(args[PreviewParam].value)\n\"$(args[ResultPath].path)\"\n"}
+  },
+  "description": "Create Recent Block Snapshots"
+}

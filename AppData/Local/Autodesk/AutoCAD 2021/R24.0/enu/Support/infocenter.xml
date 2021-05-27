@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ICXmlSourceTree xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SearchLocations />
+  <RssFeeds>
+    <Item DisplayNum="5" Enabled="true" ID="1">
+      <Name xlate="true" UID="101">Between the Lines</Name>
+      <Url xlate="true" UID="104">http://autodesk.blogs.com/between_the_lines/rss.xml</Url>
+      <Group xlate="true" UID="103">RSS Feeds</Group>
+      <Description xlate="true" UID="102">AutoCAD and Autodesk related blog.</Description>
+    </Item>
+    <Item DisplayNum="5" Enabled="true" ID="2">
+      <Name xlate="true" UID="201">Knowledge Base</Name>
+      <Url xlate="true" UID="204">http://www.autodesk.com/rss-autocad-kb</Url>
+      <Group xlate="true" UID="203">RSS Feeds</Group>
+      <Description xlate="true" UID="202">AutoCAD Knowledge Base</Description>
+    </Item>
+  </RssFeeds>
+</ICXmlSourceTree>

@@ -1,0 +1,135 @@
+25/08/2020 11:40:43: Configuration Read from: C:\Users\bruno\AppData\Local\Autodesk\AutoCAD 2021\R24.0\enu\Support\infocenter.xml
+25/08/2020 11:40:53: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+25/08/2020 11:40:54: System.Runtime.InteropServices.COMException (0x80040154): Retrieving the COM class factory for component with CLSID {CEE92F99-D9C7-4E46-9AB7-E3F705B9A543} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+   at Autodesk.Private.InfoCenter.CommunicationCenter.InitCommCenter()
+25/08/2020 11:40:54: Error executing network check
+25/08/2020 11:40:54: Retrieving the COM class factory for component with CLSID {9E928A7C-095E-4F44-81C5-D4F14F4F0265} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+25/08/2020 11:40:54: Error executing network check
+25/08/2020 11:40:54: Retrieving the COM class factory for component with CLSID {9E928A7C-095E-4F44-81C5-D4F14F4F0265} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+25/08/2020 12:13:17: Configuration Read from: C:\Users\bruno\AppData\Local\Autodesk\AutoCAD 2021\R24.0\enu\Support\infocenter.xml
+25/08/2020 12:16:32: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+25/08/2020 12:16:32: System.Runtime.InteropServices.COMException (0x80040154): Retrieving the COM class factory for component with CLSID {CEE92F99-D9C7-4E46-9AB7-E3F705B9A543} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+   at Autodesk.Private.InfoCenter.CommunicationCenter.InitCommCenter()
+25/08/2020 12:16:32: Error executing network check
+25/08/2020 12:16:32: Retrieving the COM class factory for component with CLSID {9E928A7C-095E-4F44-81C5-D4F14F4F0265} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+25/08/2020 12:16:32: Error executing network check
+25/08/2020 12:16:32: Retrieving the COM class factory for component with CLSID {9E928A7C-095E-4F44-81C5-D4F14F4F0265} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+25/08/2020 18:53:14: Configuration Read from: C:\Users\bruno\AppData\Local\Autodesk\AutoCAD 2021\R24.0\enu\Support\infocenter.xml
+25/08/2020 18:54:35: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+25/08/2020 18:54:36: System.Runtime.InteropServices.COMException (0x80040154): Retrieving the COM class factory for component with CLSID {CEE92F99-D9C7-4E46-9AB7-E3F705B9A543} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+   at Autodesk.Private.InfoCenter.CommunicationCenter.InitCommCenter()
+25/08/2020 18:54:36: Error executing network check
+25/08/2020 18:54:36: Retrieving the COM class factory for component with CLSID {9E928A7C-095E-4F44-81C5-D4F14F4F0265} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+25/08/2020 18:54:36: Error executing network check
+25/08/2020 18:54:36: Retrieving the COM class factory for component with CLSID {9E928A7C-095E-4F44-81C5-D4F14F4F0265} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+26/08/2020 12:17:39: Configuration Read from: C:\Users\bruno\AppData\Local\Autodesk\AutoCAD 2021\R24.0\enu\Support\infocenter.xml
+26/08/2020 12:18:49: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+26/08/2020 12:18:49: System.Runtime.InteropServices.COMException (0x80040154): Retrieving the COM class factory for component with CLSID {CEE92F99-D9C7-4E46-9AB7-E3F705B9A543} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+   at Autodesk.Private.InfoCenter.CommunicationCenter.InitCommCenter()
+26/08/2020 12:18:49: Error executing network check
+26/08/2020 12:18:49: Retrieving the COM class factory for component with CLSID {9E928A7C-095E-4F44-81C5-D4F14F4F0265} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+26/08/2020 12:18:49: Error executing network check
+26/08/2020 12:18:49: Retrieving the COM class factory for component with CLSID {9E928A7C-095E-4F44-81C5-D4F14F4F0265} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+01/09/2020 18:21:38: Configuration Read from: C:\Users\bruno\AppData\Local\Autodesk\AutoCAD 2021\R24.0\enu\Support\infocenter.xml
+01/09/2020 18:25:11: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+01/09/2020 18:25:11: System.Runtime.InteropServices.COMException (0x80040154): Retrieving the COM class factory for component with CLSID {CEE92F99-D9C7-4E46-9AB7-E3F705B9A543} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+   at Autodesk.Private.InfoCenter.CommunicationCenter.InitCommCenter()
+01/09/2020 18:25:11: Error executing network check
+01/09/2020 18:25:11: Retrieving the COM class factory for component with CLSID {9E928A7C-095E-4F44-81C5-D4F14F4F0265} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+01/09/2020 18:25:11: Error executing network check
+01/09/2020 18:25:11: Retrieving the COM class factory for component with CLSID {9E928A7C-095E-4F44-81C5-D4F14F4F0265} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+02/09/2020 10:42:19: Configuration Read from: C:\Users\bruno\AppData\Local\Autodesk\AutoCAD 2021\R24.0\enu\Support\infocenter.xml
+02/09/2020 10:43:30: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+02/09/2020 10:43:30: System.Runtime.InteropServices.COMException (0x80040154): Retrieving the COM class factory for component with CLSID {CEE92F99-D9C7-4E46-9AB7-E3F705B9A543} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+   at Autodesk.Private.InfoCenter.CommunicationCenter.InitCommCenter()
+02/09/2020 10:43:30: Error executing network check
+02/09/2020 10:43:30: Retrieving the COM class factory for component with CLSID {9E928A7C-095E-4F44-81C5-D4F14F4F0265} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+02/09/2020 10:43:30: Error executing network check
+02/09/2020 10:43:30: Retrieving the COM class factory for component with CLSID {9E928A7C-095E-4F44-81C5-D4F14F4F0265} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+02/09/2020 19:48:52: Configuration Read from: C:\Users\bruno\AppData\Local\Autodesk\AutoCAD 2021\R24.0\enu\Support\infocenter.xml
+02/09/2020 19:50:15: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+02/09/2020 19:50:16: System.Runtime.InteropServices.COMException (0x80040154): Retrieving the COM class factory for component with CLSID {CEE92F99-D9C7-4E46-9AB7-E3F705B9A543} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+   at Autodesk.Private.InfoCenter.CommunicationCenter.InitCommCenter()
+02/09/2020 19:50:16: Error executing network check
+02/09/2020 19:50:16: Retrieving the COM class factory for component with CLSID {9E928A7C-095E-4F44-81C5-D4F14F4F0265} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+02/09/2020 19:50:16: Error executing network check
+02/09/2020 19:50:16: Retrieving the COM class factory for component with CLSID {9E928A7C-095E-4F44-81C5-D4F14F4F0265} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+08/09/2020 19:13:10: Configuration Read from: C:\Users\bruno\AppData\Local\Autodesk\AutoCAD 2021\R24.0\enu\Support\infocenter.xml
+08/09/2020 19:14:38: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+08/09/2020 19:14:39: System.Runtime.InteropServices.COMException (0x80040154): Retrieving the COM class factory for component with CLSID {CEE92F99-D9C7-4E46-9AB7-E3F705B9A543} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+   at Autodesk.Private.InfoCenter.CommunicationCenter.InitCommCenter()
+08/09/2020 19:14:39: Error executing network check
+08/09/2020 19:14:39: Retrieving the COM class factory for component with CLSID {9E928A7C-095E-4F44-81C5-D4F14F4F0265} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+08/09/2020 19:14:39: Error executing network check
+08/09/2020 19:14:39: Retrieving the COM class factory for component with CLSID {9E928A7C-095E-4F44-81C5-D4F14F4F0265} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+09/09/2020 11:35:04: Configuration Read from: C:\Users\bruno\AppData\Local\Autodesk\AutoCAD 2021\R24.0\enu\Support\infocenter.xml
+09/09/2020 11:35:57: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+09/09/2020 11:35:57: System.Runtime.InteropServices.COMException (0x80040154): Retrieving the COM class factory for component with CLSID {CEE92F99-D9C7-4E46-9AB7-E3F705B9A543} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+   at Autodesk.Private.InfoCenter.CommunicationCenter.InitCommCenter()
+09/09/2020 11:35:57: Error executing network check
+09/09/2020 11:35:57: Retrieving the COM class factory for component with CLSID {9E928A7C-095E-4F44-81C5-D4F14F4F0265} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+09/09/2020 11:35:57: Error executing network check
+09/09/2020 11:35:57: Retrieving the COM class factory for component with CLSID {9E928A7C-095E-4F44-81C5-D4F14F4F0265} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+09/09/2020 16:48:28: Configuration Read from: C:\Users\bruno\AppData\Local\Autodesk\AutoCAD 2021\R24.0\enu\Support\infocenter.xml
+09/09/2020 16:49:04: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+09/09/2020 16:49:04: System.Runtime.InteropServices.COMException (0x80040154): Retrieving the COM class factory for component with CLSID {CEE92F99-D9C7-4E46-9AB7-E3F705B9A543} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+   at Autodesk.Private.InfoCenter.CommunicationCenter.InitCommCenter()
+09/09/2020 16:49:04: Error executing network check
+09/09/2020 16:49:04: Retrieving the COM class factory for component with CLSID {9E928A7C-095E-4F44-81C5-D4F14F4F0265} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+09/09/2020 16:49:04: Error executing network check
+09/09/2020 16:49:04: Retrieving the COM class factory for component with CLSID {9E928A7C-095E-4F44-81C5-D4F14F4F0265} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+14/09/2020 16:53:46: Configuration Read from: C:\Users\bruno\AppData\Local\Autodesk\AutoCAD 2021\R24.0\enu\Support\infocenter.xml
+14/09/2020 16:55:14: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+14/09/2020 16:55:14: System.Runtime.InteropServices.COMException (0x80040154): Retrieving the COM class factory for component with CLSID {CEE92F99-D9C7-4E46-9AB7-E3F705B9A543} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+   at Autodesk.Private.InfoCenter.CommunicationCenter.InitCommCenter()
+14/09/2020 16:55:14: Error executing network check
+14/09/2020 16:55:14: Retrieving the COM class factory for component with CLSID {9E928A7C-095E-4F44-81C5-D4F14F4F0265} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+14/09/2020 16:55:14: Error executing network check
+14/09/2020 16:55:14: Retrieving the COM class factory for component with CLSID {9E928A7C-095E-4F44-81C5-D4F14F4F0265} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+23/09/2020 19:42:01: Configuration Read from: C:\Users\bruno\AppData\Local\Autodesk\AutoCAD 2021\R24.0\enu\Support\infocenter.xml
+23/09/2020 19:43:53: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+23/09/2020 19:43:55: System.Runtime.InteropServices.COMException (0x80040154): Retrieving the COM class factory for component with CLSID {CEE92F99-D9C7-4E46-9AB7-E3F705B9A543} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+   at Autodesk.Private.InfoCenter.CommunicationCenter.InitCommCenter()
+23/09/2020 19:43:55: Error executing network check
+23/09/2020 19:43:55: Retrieving the COM class factory for component with CLSID {9E928A7C-095E-4F44-81C5-D4F14F4F0265} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+23/09/2020 19:43:55: Error executing network check
+23/09/2020 19:43:55: Retrieving the COM class factory for component with CLSID {9E928A7C-095E-4F44-81C5-D4F14F4F0265} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+23/10/2020 13:32:54: Configuration Read from: C:\Users\bruno\AppData\Local\Autodesk\AutoCAD 2021\R24.0\enu\Support\infocenter.xml
+23/10/2020 13:34:58: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+23/10/2020 13:34:58: System.Runtime.InteropServices.COMException (0x80040154): Retrieving the COM class factory for component with CLSID {CEE92F99-D9C7-4E46-9AB7-E3F705B9A543} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+   at Autodesk.Private.InfoCenter.CommunicationCenter.InitCommCenter()
+23/10/2020 13:34:58: Error executing network check
+23/10/2020 13:34:58: Retrieving the COM class factory for component with CLSID {9E928A7C-095E-4F44-81C5-D4F14F4F0265} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+23/10/2020 13:34:58: Error executing network check
+23/10/2020 13:34:58: Retrieving the COM class factory for component with CLSID {9E928A7C-095E-4F44-81C5-D4F14F4F0265} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+01/02/2021 20:30:51: Configuration Read from: C:\Users\bruno\AppData\Local\Autodesk\AutoCAD 2021\R24.0\enu\Support\infocenter.xml
+01/02/2021 20:35:29: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+01/02/2021 20:35:29: System.Runtime.InteropServices.COMException (0x80040154): Retrieving the COM class factory for component with CLSID {CEE92F99-D9C7-4E46-9AB7-E3F705B9A543} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+   at Autodesk.Private.InfoCenter.CommunicationCenter.InitCommCenter()
+01/02/2021 20:35:29: Error executing network check
+01/02/2021 20:35:29: Retrieving the COM class factory for component with CLSID {9E928A7C-095E-4F44-81C5-D4F14F4F0265} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+01/02/2021 20:35:29: Error executing network check
+01/02/2021 20:35:29: Retrieving the COM class factory for component with CLSID {9E928A7C-095E-4F44-81C5-D4F14F4F0265} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+03/02/2021 00:29:36: Configuration Read from: C:\Users\bruno\AppData\Local\Autodesk\AutoCAD 2021\R24.0\enu\Support\infocenter.xml
+03/02/2021 00:34:43: ICommunicationCenterConnector.SubAwareServiceUrl does not contain valid URL.
+ Attempting to load from registry
+03/02/2021 00:34:46: System.Runtime.InteropServices.COMException (0x80040154): Retrieving the COM class factory for component with CLSID {CEE92F99-D9C7-4E46-9AB7-E3F705B9A543} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+   at Autodesk.Private.InfoCenter.CommunicationCenter.InitCommCenter()
+03/02/2021 00:34:46: Error executing network check
+03/02/2021 00:34:46: Retrieving the COM class factory for component with CLSID {9E928A7C-095E-4F44-81C5-D4F14F4F0265} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).
+03/02/2021 00:34:46: Error executing network check
+03/02/2021 00:34:46: Retrieving the COM class factory for component with CLSID {9E928A7C-095E-4F44-81C5-D4F14F4F0265} failed due to the following error: 80040154 Classe não registrada (Exception from HRESULT: 0x80040154 (REGDB_E_CLASSNOTREG)).

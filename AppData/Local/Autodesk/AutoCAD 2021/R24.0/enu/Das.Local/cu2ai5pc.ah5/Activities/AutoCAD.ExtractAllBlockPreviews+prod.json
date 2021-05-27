@@ -1,0 +1,42 @@
+﻿{
+  "commandLine": [ "\"$(engine.path)AcCoreConsole.exe\" /noCER /acblock /i \"$(args[HostDwg].path)\" /readonly /isolate BlockPreviewUser BlockPreviewFolder /s \"$(settings[_scr].path)\"" ],
+    "parameters": {
+        "HostDwg": {
+            "verb": "get",
+            "description": "Drawing with blocks",
+            "required": true
+        },
+        "ThumbnailWidth": {
+            "verb": "read",
+            "description": "Width of the preview thumbnail to be generated.",
+            "required": true
+        },
+        "ThumbnailHeight": {
+            "verb": "read",
+            "description": "Height of the preview thumbnail to be generated.",
+            "required": true
+        },
+        "BackGroundColor": {
+            "verb": "read",
+            "description": "Background color of the preview thumbnail to be generated: (R,G,B).",
+            "required": true
+        },
+        "IsLightTheme": {
+            "verb": "read",
+            "description": "Set to true if previews are for light theme, in which the white graphics(e.g.line) will be drawn in black for visibility",
+            "required": true
+        },
+        "Results": {
+            "verb": "post",
+            "description": "Folder holding the generated previews.",
+            "required": true
+        }
+    },
+    "engine": "Autodesk.AutoCAD+23_1",
+    "appbundles": [],
+    "settings": {
+      "_scr": { "value": "_ExtractAllBlockPreviews\n\"$(args[ThumbnailWidth].value)\"\n\"$(args[ThumbnailHeight].value)\"\n\"$(args[BackGroundColor].value)\"\n\"$(args[IsLightTheme].value)\"\n\"$(args[Results].path)\"\n" }
+    },
+    "description": "Extracts all block previews from a drawing and places them in a folder."
+}
+

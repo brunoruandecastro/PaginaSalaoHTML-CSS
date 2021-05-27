@@ -1,0 +1,26 @@
+﻿{
+  "commandLine": [ "\"$(engine.path)AcCoreConsole.exe\" /noCER /acblock /i \"$(args[HostDwg].path)\" /readonly /isolate BlockPreviewUser BlockPreviewFolder /s \"$(settings[_scr].path)\"" ],
+  "parameters": {
+    "HostDwg": {
+      "verb": "get",
+      "description": "Drawing that contains the block.",
+      "required": true
+    },
+    "Blocks": {
+        "verb": "read",
+        "description": "Array of the blocks that we want the previews for.",
+        "required": true
+    },
+    "Result": {
+        "verb": "post",
+        "description": "Folder holding the generated previews.",
+        "required": true
+    }
+  },
+  "engine": "Autodesk.AutoCAD+23_1",
+  "appbundles": [],
+    "settings": {
+      "_scr": { "value": "_ExtractBlockPreview\n\"$(args[Blocks].value)\"\n\"$(args[Result].path)\"\n" }
+    },
+    "description": "Extracts preview images for specified blocks in a drawing."
+}

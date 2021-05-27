@@ -1,0 +1,158 @@
+00:00:00.068275 main     VirtualBox COM Server 6.1.10 r138449 win.amd64 (Jun  4 2020 17:22:00) release log
+00:00:00.068281 main     Log opened 2021-05-06T14:08:11.550116600Z
+00:00:00.068282 main     Build Type: release
+00:00:00.068299 main     OS Product: Windows 10
+00:00:00.068302 main     OS Release: 10.0.19042
+00:00:00.068303 main     OS Service Pack: 
+00:00:00.309535 main     DMI Product Name: 550XBE/350XBE
+00:00:00.377155 main     DMI Product Version: P07REU
+00:00:00.377191 main     Firmware type: UEFI
+00:00:00.377990 main     Secure Boot: VERR_PRIVILEGE_NOT_HELD
+00:00:00.398985 main     Host RAM: 3988MB (3.8GB) total, 674MB available
+00:00:00.399004 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.399006 main     Process ID: 10760
+00:00:00.399008 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.766285          VirtualBox: object creation starts
+00:00:00.779369          Home directory: 'C:\Users\bruno\.VirtualBox'
+00:00:00.780276          Installed Drivers:
+00:00:00.819518            C:\WINDOWS\system32\DRIVERS\VBoxNetLwf.sys (Version: 6.1.10.38449)
+00:00:00.834480            C:\WINDOWS\system32\DRIVERS\VBoxUSBMon.sys (Version: 6.1.10.38449)
+00:00:00.851656            C:\WINDOWS\system32\DRIVERS\VBoxDrv.sys (Version: 6.1.10.38449)
+00:00:01.120137          Loading settings file "C:\Users\bruno\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:01.169335          usbLibGetDevices: Starting USB device enumeration
+00:00:01.170011          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&15aa5ca6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:00:01.188017          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&15aa5ca6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:00:01.191145          usbLibGetDevices: Found 2 USB devices, 0 captured
+00:00:01.207766          USB: Unknown USB device detected (idVendor: 0x0cf3, idProduct: 0xe500)
+00:00:01.209120          USB: Unknown USB device detected (idVendor: 0x2232, idProduct: 0x1080)
+00:00:01.927473          netIfIsWireless: CreateFile on '\\.\{C6C59687-512C-4CFE-9435-058CB9ABD7CA}' failed with rcWin=2 (0x2) - ignoring
+00:00:01.935322          netIfIsWireless: CreateFile on '\\.\{F3CCB301-7DB1-45AE-9C80-348EC9F20DB4}' failed with rcWin=2 (0x2) - ignoring
+00:00:02.011524          HostDnsMonitor: initializing
+00:00:02.059233          HostDnsMonitor: updating information
+00:00:02.127260          HostDnsMonitor: old information
+00:00:02.127265            no server entries
+00:00:02.127267            no domain set
+00:00:02.127268            no search string entries
+00:00:02.127270          HostDnsMonitor: new information
+00:00:02.127271            server 1: 138.97.188.3
+00:00:02.127273            server 2: 138.97.188.4
+00:00:02.127274            no domain set
+00:00:02.127275            no search string entries
+00:00:03.224752          VD: VDInit finished with VINF_SUCCESS
+00:00:03.463300          Loading settings file "C:\Users\bruno\VirtualBox VMs\Windows nova\Windows nova.vbox" with version "1.15-windows"
+00:00:03.581897          Loading settings file "C:\Users\bruno\VirtualBox VMs\windows 10 novo\windows 10 novo.vbox" with version "1.15-windows"
+00:00:03.880497          OCI: Local config file 'C:\Users\bruno\.VirtualBox\oci_config' does not exist
+00:00:03.880871          OCI: Original config file 'C:\Users\bruno\.oci\config' does not exist
+00:00:03.880875          OCI: Reading profiles finished with status ERROR_SUCCESS
+00:00:03.893160          ExtPack: Created cloud provider 'OCI' (hrc=ERROR_SUCCESS)
+00:00:03.902431          VirtualBox: object created
+00:00:24.335132          Saving settings file "C:\Users\bruno\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:24.528074          Saving settings file "C:\Users\bruno\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:31.062045          Saving settings file "C:\Users\bruno\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:32.492681          Saving settings file "C:\Users\bruno\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:32.512764          Saving settings file "C:\Users\bruno\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:34.530417          Saving settings file "C:\Users\bruno\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:37.524311          Saving settings file "C:\Users\bruno\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:37.585281          Saving settings file "C:\Users\bruno\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:40.179083          Saving settings file "C:\Users\bruno\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:01:03.180079          Saving settings file "C:\Users\bruno\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:01:22.423220          Launched VM: 68171056 pid: 236 (0xec) frontend: GUI/Qt name: Windows nova
+00:01:36.543075          Load [C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxHostWebcam.DLL] vrc=VINF_SUCCESS
+00:01:38.488189          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:01:39.361882          netIfIsWireless: CreateFile on '\\.\{C6C59687-512C-4CFE-9435-058CB9ABD7CA}' failed with rcWin=2 (0x2) - ignoring
+00:01:39.380086          netIfIsWireless: CreateFile on '\\.\{F3CCB301-7DB1-45AE-9C80-348EC9F20DB4}' failed with rcWin=2 (0x2) - ignoring
+00:01:44.926371 SVCHelper ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={Operation canceled by the user}, preserve=false aResultDetail=0
+00:01:44.959538          ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={455f8c45-44a0-a470-ba20-27890b96dba9} aComponent={HostNetworkInterfaceWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:01:44.959592          EnableStaticIpConfig failed with 0x80070005
+00:01:44.962993          Saving settings file "C:\Users\bruno\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:01:44.981941          Saving settings file "C:\Users\bruno\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:01:44.992013          Saving settings file "C:\Users\bruno\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:01:45.044712          Saving settings file "C:\Users\bruno\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:01:45.116404          Saving settings file "C:\Users\bruno\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:01:45.132941          Failed to update persistent config for host-only adapters with rc=E_ACCESSDENIED
+00:01:58.221840          Saving settings file "C:\Users\bruno\VirtualBox VMs\Windows nova\Windows nova.vbox" with version "1.15-windows"
+00:01:58.328667          Saving settings file "C:\Users\bruno\VirtualBox VMs\Windows nova\Windows nova.vbox" with version "1.15-windows"
+00:04:42.856968 createBase Saving settings file "C:\Users\bruno\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:04:43.071346          Saving settings file "C:\Users\bruno\VirtualBox VMs\aulaLinux\aulaLinux.vbox" with version "1.16-windows"
+00:04:43.094359          Saving settings file "C:\Users\bruno\VirtualBox VMs\aulaLinux\aulaLinux.vbox" with version "1.16-windows"
+00:04:43.098947          Saving settings file "C:\Users\bruno\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:04:43.148633          Saving settings file "C:\Users\bruno\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:04:43.170866          Saving settings file "C:\Users\bruno\VirtualBox VMs\aulaLinux\aulaLinux.vbox" with version "1.16-windows"
+00:04:49.602303          Launched VM: 67989024 pid: 7852 (0x1eac) frontend: GUI/Qt name: aulaLinux
+00:05:00.560385          Load [C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxHostWebcam.DLL] vrc=VINF_SUCCESS
+00:05:01.400807          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:05:02.219660          netIfIsWireless: CreateFile on '\\.\{C6C59687-512C-4CFE-9435-058CB9ABD7CA}' failed with rcWin=2 (0x2) - ignoring
+00:05:02.231817          netIfIsWireless: CreateFile on '\\.\{F3CCB301-7DB1-45AE-9C80-348EC9F20DB4}' failed with rcWin=2 (0x2) - ignoring
+00:05:40.420229          Saving settings file "C:\Users\bruno\VirtualBox VMs\aulaLinux\aulaLinux.vbox" with version "1.16-windows"
+00:12:02.128333 dns-monitor HostDnsMonitor: updating information
+00:12:02.128387 dns-monitor HostDnsMonitor: unchanged
+00:25:25.097670 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:25:25.099173 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&15aa5ca6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:25:25.099635 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&15aa5ca6&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 7
+00:25:25.100560 USBPROXY usbLibGetDevices: Found 2 USB devices, 0 captured
+00:26:59.890409 MainPower Host suspending: Paused 1 VMs
+00:30:14.671115 MainPower Host resumed: Resumed 1 VMs
+00:30:17.874325 dns-monitor HostDnsMonitor: updating information
+00:30:17.874374 dns-monitor HostDnsMonitor: unchanged
+00:30:28.247907 dns-monitor HostDnsMonitor: updating information
+00:30:28.247963 dns-monitor HostDnsMonitor: unchanged
+00:37:22.864827          Saving settings file "C:\Users\bruno\VirtualBox VMs\aulaLinux\aulaLinux.vbox" with version "1.16-windows"
+00:37:36.268379          Saving settings file "C:\Users\bruno\VirtualBox VMs\aulaLinux\aulaLinux.vbox" with version "1.16-windows"
+00:37:36.554009 SaveState Saving settings file "C:\Users\bruno\VirtualBox VMs\aulaLinux\aulaLinux.vbox" with version "1.16-windows"
+00:37:37.330252          Saving settings file "C:\Users\bruno\VirtualBox VMs\aulaLinux\aulaLinux.vbox" with version "1.16-windows"
+00:37:37.817081          Saving settings file "C:\Users\bruno\VirtualBox VMs\aulaLinux\aulaLinux.vbox" with version "1.16-windows"
+00:37:46.462986          Launched VM: 77662688 pid: 4996 (0x1384) frontend: GUI/Qt name: aulaLinux
+00:37:59.645711          Load [C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxHostWebcam.DLL] vrc=VINF_SUCCESS
+00:38:22.230157          Saving settings file "C:\Users\bruno\VirtualBox VMs\aulaLinux\aulaLinux.vbox" with version "1.16-windows"
+00:46:56.131574          Saving settings file "C:\Users\bruno\VirtualBox VMs\aulaLinux\aulaLinux.vbox" with version "1.16-windows"
+00:46:56.180409          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:46:56.217782          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:46:56.236276          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:46:56.315476          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:46:56.393582 SaveState Saving settings file "C:\Users\bruno\VirtualBox VMs\aulaLinux\aulaLinux.vbox" with version "1.16-windows"
+00:47:01.062191          Launched VM: 77663312 pid: 15712 (0x3d60) frontend: GUI/Qt name: aulaLinux
+00:47:10.927673          Load [C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxHostWebcam.DLL] vrc=VINF_SUCCESS
+00:47:30.762237          Saving settings file "C:\Users\bruno\VirtualBox VMs\aulaLinux\aulaLinux.vbox" with version "1.16-windows"
+00:48:17.767594          Saving settings file "C:\Users\bruno\VirtualBox VMs\aulaLinux\aulaLinux.vbox" with version "1.16-windows"
+00:48:23.062044          Saving settings file "C:\Users\bruno\VirtualBox VMs\aulaLinux\aulaLinux.vbox" with version "1.16-windows"
+00:48:23.371396          Saving settings file "C:\Users\bruno\VirtualBox VMs\aulaLinux\aulaLinux.vbox" with version "1.16-windows"
+00:48:29.285842          Launched VM: 68468784 pid: 17596 (0x44bc) frontend: GUI/Qt name: aulaLinux
+00:48:38.658416          Load [C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxHostWebcam.DLL] vrc=VINF_SUCCESS
+00:48:39.376216          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:48:40.730651          netIfIsWireless: CreateFile on '\\.\{C6C59687-512C-4CFE-9435-058CB9ABD7CA}' failed with rcWin=2 (0x2) - ignoring
+00:48:40.754883          netIfIsWireless: CreateFile on '\\.\{F3CCB301-7DB1-45AE-9C80-348EC9F20DB4}' failed with rcWin=2 (0x2) - ignoring
+00:55:38.904099 MainPower Host suspending: Paused 1 VMs
+02:51:55.256903 MainPower Host resumed: Resumed 1 VMs
+02:52:02.114225 dns-monitor HostDnsMonitor: updating information
+02:52:02.114273 dns-monitor HostDnsMonitor: unchanged
+03:10:58.738928          Saving settings file "C:\Users\bruno\VirtualBox VMs\aulaLinux\aulaLinux.vbox" with version "1.16-windows"
+03:11:09.581131          Saving settings file "C:\Users\bruno\VirtualBox VMs\aulaLinux\aulaLinux.vbox" with version "1.16-windows"
+03:11:09.760352          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+03:11:09.835797          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+03:11:09.850359          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+03:11:09.925608 SaveState Saving settings file "C:\Users\bruno\VirtualBox VMs\aulaLinux\aulaLinux.vbox" with version "1.16-windows"
+03:11:10.511366          Saving settings file "C:\Users\bruno\VirtualBox VMs\aulaLinux\aulaLinux.vbox" with version "1.16-windows"
+03:11:15.492131          Launched VM: 68468496 pid: 3612 (0xe1c) frontend: GUI/Qt name: aulaLinux
+03:11:32.568385          Load [C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxHostWebcam.DLL] vrc=VINF_SUCCESS
+03:11:50.885434          Saving settings file "C:\Users\bruno\VirtualBox VMs\aulaLinux\aulaLinux.vbox" with version "1.16-windows"
+03:12:19.586397          Saving settings file "C:\Users\bruno\VirtualBox VMs\aulaLinux\aulaLinux.vbox" with version "1.16-windows"
+03:12:19.888063          Saving settings file "C:\Users\bruno\VirtualBox VMs\aulaLinux\aulaLinux.vbox" with version "1.16-windows"
+03:12:22.922125          Launched VM: 67989360 pid: 17084 (0x42bc) frontend: GUI/Qt name: aulaLinux
+03:12:33.855021          Load [C:\Program Files\Oracle\VirtualBox\ExtensionPacks\Oracle_VM_VirtualBox_Extension_Pack\win.amd64\VBoxHostWebcam.DLL] vrc=VINF_SUCCESS
+03:12:34.620145          ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+03:12:36.371436          netIfIsWireless: CreateFile on '\\.\{C6C59687-512C-4CFE-9435-058CB9ABD7CA}' failed with rcWin=2 (0x2) - ignoring
+03:12:36.382580          netIfIsWireless: CreateFile on '\\.\{F3CCB301-7DB1-45AE-9C80-348EC9F20DB4}' failed with rcWin=2 (0x2) - ignoring
+03:28:06.860942          Saving settings file "C:\Users\bruno\VirtualBox VMs\aulaLinux\aulaLinux.vbox" with version "1.16-windows"
+03:28:20.196017          Saving settings file "C:\Users\bruno\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+03:28:20.324056          Saving settings file "C:\Users\bruno\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+03:28:20.341514          Saving settings file "C:\Users\bruno\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+03:28:22.883968          Saving settings file "C:\Users\bruno\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+03:28:22.979167          Saving settings file "C:\Users\bruno\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+03:28:31.843158 main     VirtualBox: object deletion starts
+03:28:31.883899 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\bruno\VirtualBox VMs\Windows nova\Windows nova.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+03:28:31.926338 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\bruno\VirtualBox VMs\windows 10 novo\windows 10 novo.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+03:28:31.927845 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium 'C:\Users\bruno\VirtualBox VMs\aulaLinux\aulaLinux.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+03:28:32.273936 main     HostDnsMonitor: shutting down ...
+03:28:32.292397 main     HostDnsMonitor: shut down
+03:28:32.434558 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+03:28:32.465233 main     VirtualBox: object deleted

@@ -1,0 +1,22 @@
+﻿{
+  "commandLine": [ "\"$(engine.path)AcCoreConsole.exe\" /noCER /acblock /isolate BlockPreviewUser BlockPreviewFolder /s \"$(settings[_scr].path)\"" ],
+    "parameters": {
+        "HostDwg": {
+            "verb": "get",
+            "description": "Drawing with blocks",
+            "required": true
+        },
+        "Results": {
+            "verb": "post",
+            "description": "Folder holding the generated result Json file.",
+            "required": true
+        }
+    },
+    "engine": "Autodesk.AutoCAD+23_1",
+    "appbundles": [],
+    "settings": {
+      "_scr": { "value": "_ExtractBlockNameList\n\"$(args[HostDwg].path)\"\n\"$(args[Results].path)\"\n" }
+    },
+    "description": "Extracts block name list from a drawing and places result Json file into a folder."
+}
+

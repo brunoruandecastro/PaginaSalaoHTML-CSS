@@ -1,0 +1,94 @@
+<!-- saved from url=(0014)about:internet -->
+<html>
+<!--
+	Autodesk Publish to Web HTML Template
+
+    Copyright 1988-2001 by Autodesk, Inc.
+
+	Permission to use, copy, modify, and distribute this software
+	for any purpose and without fee is hereby granted, provided
+	that the above copyright notice appears in all copies and
+	that both that copyright notice and the limited warranty and
+	restricted rights notice below appear in all supporting
+	documentation.
+
+	AUTODESK PROVIDES THIS PROGRAM "AS IS" AND WITH ALL FAULTS.
+	AUTODESK SPECIFICALLY DISCLAIMS ANY IMPLIED WARRANTY OF
+	MERCHANTABILITY OR FITNESS FOR A PARTICULAR USE.  AUTODESK, INC.
+	DOES NOT WARRANT THAT THE OPERATION OF THE PROGRAM WILL BE
+	UNINTERRUPTED OR ERROR FREE.
+
+	Use, duplication, or disclosure by the U.S. Government is subject to
+	restrictions set forth in FAR 52.227-19 (Commercial Computer
+	Software - Restricted Rights) and DFAR 252.227-7013(c)(1)(ii) 
+	(Rights in Technical Data and Computer Software), as applicable.
+
+    IMPORTANT NOTE: Always back up template files before making any changes.
+    
+    The Publish to Web wizard uses this template to publish a list of drawings, an
+    image frame, and summary information about a selected image. Using any HTML 
+    tool, you can change or add any HTML tags to customize this template to fit your needs. 
+    You can include graphics, text, menus, or any browser-supported Web technology.
+    
+    For the Publish to Web template to work correctly, you must not change 
+	any of the <script> declarations and style sheet references listed below. You can     
+	design around these, but the wizard searches for these tags and references when         
+	processing input.
+
+
+    <script> declaration (and any content within this declaration):
+    <script> </script>
+
+    style sheet reference:
+    <link rel="stylesheet" href="acwebpublish.css" TYPE="text/css">
+
+    As you review the HTML code in this template, look for the commented text labeled TIP to find
+    helpful assistance.
+-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- LOCALIZATION_BEGIN -->
+<meta http-equiv="Content-Language" content="en-us">
+<!-- LOCALIZATION_END -->
+<meta name="AcPub2Web" content="v-2-0-0-layout">
+<!-- LOCALIZATION_BEGIN -->
+
+<!-- TIP: Change content text to customize a template name in the wizard template list. -->
+<meta name="adsk_ptw_template_name" content="List plus Summary">
+
+<!-- TIP: Change content text to customize your template's description in the wizard.  -->
+<meta name="adsk_ptw_template_description" content="Creates a Web page containing a list of drawings, an image frame, and summary information about the currently selected image.  The summary information includes values from the Summary tab of the Drawing Properties dialog box (accessed using the DWGPROPS command).">
+
+<!-- LOCALIZATION_END -->
+
+<!-- TIP: Create your own template preview BMP image (159 x 136 pixels) in the wizard. Save the BMP file in the same location as your template (PWT) file. Change the content tag to 
+reflect the image's file name.-->
+<meta name="adsk_ptw_template_image" content="ptw_template4_preview.bmp">
+
+<meta name="adsk_ptw_template_content_image" content="">
+<meta name="adsk_ptw_template_content_drawing_summary" content="">
+
+<!-- TIP: This is the title text shown in the top title bar of your browser.  -->
+<title>Web Publishing</title>
+<link rel="stylesheet" href="acwebpublish.css" TYPE="text/css">
+</head>
+<frameset rows="130,*,15%" framespacing="0">
+	<frame src="acwebpublish_frame1.htm" name="adsk_ptw_page_title_frame" frameborder="0" scrolling="no" noresize  marginwidth="0" marginheight="0">
+	<frameset cols="205,*" frameborder="0" border="0" marginwidth="0" marginheight="0">
+		<frame src="acwebpublish_frame2.htm" name="adsk_ptw_list_frame" scrolling="auto">
+		<frame src="acwebpublish_frame3.htm" name="adsk_ptw_image_frame" scrolling="auto">
+	</frameset>
+	<frame src="acwebpublish_frame4.htm" name="adsk_ptw_summary_frame" frameborder="1" scrolling="auto" >
+</frameset><noframes></noframes>
+
+<!-- The following script declarations are used by the Autodesk Publish To Web wizard:
+<script src="xmsg_adsk_ptw_all.js" language="javascript" type="text/javascript"></script>
+<script src="adsk_ptw_validate_vview.js" language="javascript" type="text/javascript"></script>
+<script src="adsk_ptw_list_of_drawings.js" language="javascript" type="text/javascript"></script>
+<script src="adsk_ptw_image_and_idrop.js" language="javascript" type="text/javascript"></script>
+<script src="adsk_ptw_page_description.js" language="javascript" type="text/javascript"></script>
+<script src="adsk_ptw_contents_text.js" language="javascript" type="text/javascript"></script>
+<script src="adsk_ptw_page_title.js" language="javascript" type="text/javascript"></script>
+-->
+
+</html>

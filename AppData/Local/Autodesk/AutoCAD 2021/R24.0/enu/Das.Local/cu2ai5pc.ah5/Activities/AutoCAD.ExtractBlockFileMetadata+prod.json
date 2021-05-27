@@ -1,0 +1,26 @@
+﻿{
+  "commandLine": [ "\"$(engine.path)AcCoreConsole.exe\" /noCER /acblock /i \"$(args[HostDwg].path)\" /s \"$(settings[_scr].path)\" /readonly /isolate BlockPreviewUser BlockPreviewFolder" ],
+  "parameters": {
+    "MetadataParam": {
+      "verb" :"read",
+      "description": "Block metadata parameters"
+    },
+    "HostDwg": {
+      "verb": "get",
+      "description": "Drawing with blocks",
+      "required": true
+    },
+    "Results": {
+      "verb": "post",
+      "description": "Folder holding the generated blocks metadata.",
+      "required": true
+    }
+  },
+  "engine": "Autodesk.AutoCAD+23_1",
+  "appbundles": [],
+  "settings": {
+    "_scr": { "value": "_.ExtractFileMetaData \"$(args[HostDwg].path)\"\n$(args[MetadataParam].value)\n\"$(args[Results].path)\"\n" }
+  },
+  "description": "Extracts blocks metadata from the host drawing and places them into the result folder."
+}
+

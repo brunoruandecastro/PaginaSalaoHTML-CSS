@@ -1,0 +1,21 @@
+﻿{
+  "commandLine": [ "\"$(engine.path)AcCoreConsole.exe\" /i \"$(args[HostDwg].path)\" /s \"$(settings[_scr].path)\"" ],
+  "parameters": {
+    "HostDwg": {
+      "verb": "get",
+      "description": "Host drawing to be loaded into AutoCAD.",
+      "required": true
+    },
+    "Result": {
+      "verb": "post",
+      "description": "Result pdf.",
+      "required": true
+    }
+  },
+  "engine": "Autodesk.AutoCAD+23_1",
+  "appbundles": [],
+  "settings": {
+    "_scr": { "value": "_tilemode 0 _-export _pdf _all \"$(args[Result].path)\"\n" }
+  },
+  "description": "PlotToPdf for all layouts."
+}
