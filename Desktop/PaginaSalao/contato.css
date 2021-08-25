@@ -1,0 +1,145 @@
+
+ /*Cabeçalho padrao*/
+header { 
+    background: black;
+}
+
+
+#logoSalao {
+    height: 90px;
+    margin-left: 15%;
+}
+
+nav {
+    position: absolute;
+    top: 50px;
+    right: 15%;
+
+}
+nav li{
+    display: inline;
+
+}
+nav a {
+    font-size: 20px;
+    color:rgba(240, 205, 9, 0.842);
+}
+.botao-nav {
+    padding: 7px 15px;
+    border-radius: 5px;
+    border-color: white;
+    color:white;
+    background-color: rgba(240, 205, 9, 0.842);
+    text-transform: uppercase; 
+    cursor: pointer;
+}
+
+body{
+    background-color: #f0f8f0ff;
+}
+
+#titulo {
+    font-family: sans-serif;
+    color: rgba(240, 205, 9, 0.842);
+    font-size: 35px;
+    margin-left: 33%;
+}
+
+#subtitulo {
+    font-family: sans-serif;
+    color:#3C3D48;
+    margin-left: 38%;
+
+}
+
+fieldset {
+    border: 0;
+}
+
+main {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: rgba(240, 205, 9, 0.842);
+    justify-content: center;
+    margin-left: 33%;
+    margin-top:2%;
+}
+
+input, select,textarea, button{
+    border-radius: 5px;
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: rgba(240, 205, 9, 0.842);
+    display: block;
+}
+
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+.campo input [type= "text"], .campo input [type= "email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #3C3D48;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0,0.2);
+    display: block;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background: #e0e0f8;
+}
+
+
+.botao {
+    font-size: 1.2em;
+    background: rgba(240, 205, 9, 0.842);
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0,0.5);
+    position: relative;
+    left: 16%;
+}
+.botao:hover {
+    background: yellow;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0.2);
+    text-shadow: none;
+}
+
+#check {
+    display: inline-block;
+}
+
+
+.rodape{
+   
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+footer {
+    background-color: black;
+}
+
+
+
+
+
+
+
+

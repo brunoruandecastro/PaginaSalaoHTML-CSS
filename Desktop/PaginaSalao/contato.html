@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="reset.css">
+        <link rel = "stylesheet" href= "contato.css"> 
+        
+        <title> Contato - Centro de Beleza Emanuelle Cristina</title> 
+    </head>
+
+
+    <body>
+
+        <header>
+            <div class="campo">
+                <img id= "logoSalao" src="logoSalao.jpeg">
+                <nav>
+                    <ul>
+                        <li> <a href="home.html"><button type="button" class= "botao-nav">Início</button></a></li>
+
+                        <li><a href="contato.html"><button type="button" class="botao-nav">Contato</button></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="grupo">
+            <h1 id="titulo">Atendimento ao Cliente</h1><br>
+            <p id="subtitulo">Complete com suas informações</p>
+        </div>
+
+    <main>
+        <form>
+
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+            </fieldset>
+
+            <div class="campo">
+                <label for="email"><strong>E-mail</strong></label>
+                <input type="email" name="email" id="email" required>
+            </div><br>
+
+            <div class="campo">
+                <label for= "horarios"><strong>Qual horário você prefere ser atendido?</strong</label>
+                <select id="horarios">
+                    <option selected disabled value="">Selecione</option>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </div>
+
+            <fieldset class="grupo">
+                <div id="check">
+                    <label><strong>Qual(is) serviço(s) você deseja?</strong></label><br><br>
+                    <input type="checkbox" name="select-servicos" value="maquiagem">
+                    <label for="servico1">Maquiagem</label>
+                    <input type="checkbox" name="select-servicos" value="cabelo">
+                    <label for="servico2">Cabelo</label>
+                    <input type="checkbox" name="select-servicos" value="depilacao">
+                    <label for="servico3">Depilação a Led</label>
+                    <input type="checkbox" name="select-servicos" value="unha">
+                    <label for="servico4">Unha</label>
+                </div>
+            </fieldset><br>  
+
+            <div class="campo">
+                <br>
+                <label><strong>Deixe aqui sua sugestão ou comentario!</strong></label>
+                <textarea rows="6" style="width: 26em;" id="sugestao" name="sugestao"></textarea>
+            </div>
+
+            
+            <button class="botao" type="submit">Enviar</button>
+        
+        </form>
+
+        </main>
+    
+            <footer>
+                <div class="rodape">
+                    <p>&copy;Copyright 2021 - Todos os direitos reservados.</p>
+                </div>  
+            </footer>
+    
+    </body>
+
+</html>
